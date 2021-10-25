@@ -151,11 +151,28 @@
     border-width: 2px;
     background-color: var(--backgroundColor);
 }
-/* .div-wraper {
-    display: flex;
-    flex-direction: row;
-} */
+.div-wraper {
+    max-width: 352px;
+    width: 100%;
+    margin-left: 16px;
+}
 .section2 {
     display: flex;
     flex-direction: row;
+}
+.button {
+    /* border: none;
+    background-color: #5863F8;
+    max-width: 352px;
+    width: 100%;
+    height: 60px;
+    color: white;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */ 
+}
+
+.imgs {
+    display: flex;
+    justify-content: space-between;
 }
