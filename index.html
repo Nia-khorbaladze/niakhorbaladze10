@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
@@ -48,65 +49,75 @@
     </section>
 
     <section>
-        <h5>CONTACT</h5>
-        <h2>Contact us to get 
+        <div class="section2-wraper">
+          <div class="titles">
+           <h5 class="sec2-title">CONTACT</h5>
+           <h2 class="sec2-title2">Contact us to get 
             free support</h2>
-        <div class="section2">
-        <div class="form-element">
-            <label for="description"></label>
-            <textarea class="textarea" name="textarea-description" id="desctiption" placeholder="Description" required></textarea>
+          </div>
+          <div class="section2">
+             <div class="form-element">
+               <label for="description"></label>
+               <textarea class="textarea" name="textarea-description" id="desctiption" placeholder="Description" required></textarea>
+             </div>
+            
+             <div class="div-wraper">
+               <div>
+                  <label for="subject"></label>
+                  <textarea class="subjectfill" name="subject" id="subject" placeholder="Subject" required></textarea>
+               </div>
+               <div class="line2">
+
+                  <div>
+                   <label for="name"></label>
+                   <textarea class="namefill" name="name" id="name" placeholder="Name/Surname" required></textarea>
+                  </div>
+
+                  <div>
+                   <label for="email"></label>
+                   <textarea class="emailfill" name="email" id="email" placeholder="Email" required></textarea>
+                  </div>
+
+                  <div>
+                   <button class="button" type="submit" value="Submit">Send <img class="send-img" src="images/send.svg" alt="send"></button>
+                  </div>
+               </div>
+            </div>
+          </div>
+
+        <div class="contact-info">
+            <div class="contact-div">
+                <div class="div-button"> <img class="button-img" src="images/mail.svg" alt="mail-icon"></div>
+                <h3 class="div-title">Email</h3>
+                <h4 class="div-info">example@yahoo.com </h4>
+                <h4 class="div-info">exampleemail2@yahoo.com</h4>
+            </div>
+
+            <div class="contact-div">
+                <div class="div-button"> <img class="button-img" src="images/phone.svg" alt="phone-icon"></div>
+                <h3  class="div-title">Phone</h3>
+                <h4 class="div-info">+0 320 422 4254</h4>
+                <h4 class="div-info"> +0 342 552 523</h4>
+            </div>
+
+            <div class="contact-div">
+                <div class="div-button"> <img class="button-img" src="images/map-pin.svg" alt="location-icon"></div>
+                <h3  class="div-title">Location</h3>
+                <h4 class="div-info">Main Str Chicago Ilinois </h4>
+                <h4 class="div-info">Main Street New York City</h4>
+            </div>
         </div>
-        <div class="div-wraper">
-         <div>
-            <label for="subject"></label>
-            <textarea class="subjectfill" name="subject" id="subject" placeholder="Subject" required></textarea>
-         </div>
-         <div class="line2">
-         <div>
-            <label for="name"></label>
-            <textarea class="namefill" name="name" id="name" placeholder="Name/Surname" required></textarea>
-         </div>
-         <div>
-            <label for="email"></label>
-            <textarea class="emailfill" name="email" id="email" placeholder="Email" required></textarea>
-         </div>
-         <div>
-            <button class="button" type="submit" value="Submit">Send <img src="images/send.svg" alt="send"></button>
-         </div>
-         </div>
-        </div>
-        </section>
+    </div>
+</section>
 
     <section>
-        <div>
-            <div>
-                <div></div>
-                <h3>Email</h3>
-                <h4>example@yahoo.com
-                    exampleemail2@yahoo.com</h4>
-            </div>
-
-            <div>
-                <div></div>
-                <h3>Phone</h3>
-                <h4>+0 320 422 4254
-                    +0 342 552 523</h4>
-            </div>
-
-            <div>
-                <div></div>
-                <h3>Location</h3>
-                <h4>Main Str Chicago Ilinois
-                    Main Street New York City</h4>
-            </div>
-
-        </div>
-    </section>
-
-    <section>
-      <h4>PHOTOS</h4>
-      <h2>See our latest photos
+     <div class="imgsection-titles">
+      <h4 class="imgtitle1">PHOTOS</h4>
+      <div class="image-h2">
+      <h2 class="imgtitle2">See our latest photos
         from restaurant and hotel</h2>
+      </div>
+    </div>
       <div class="imgs">
         <img src="images/mohamed-ajufaan-GFcWwwGNu_w-unsplash.jpg" alt="nature">
         <img src="images/manuel-moreno-DGa0LQ0yDPc-unsplash.jpg" alt="nature">
@@ -116,7 +127,46 @@
 
     
     <footer>
+        <div class="footer-wraper">
+        <div class="footer-line1">
+            <h3 class="footer-title maintitle">Zetta Hotels</h3>
+            <p class="footer-paragraph">Our hotel is an image of quality and profesionalism combined with hard work and precision. You can expect only the best services from our staff.</p>
+            <div>
+                <a class="icon-logo" href="#"> <img src="images/001-facebook.svg" alt="facebook-icon"></a>
+                <a class="icon-logo" href="#"> <img src="images/002-twitter.svg" alt="twitter-icon"></a>
+                <a class="icon-logo" href="#"> <img src="images/004-google-plus.svg" alt="googleplus-icon"></a>
+            </div>
+        </div>
 
+        <div class="footer-line">
+            <h3 class="footer-title">Useful Links</h3>
+            <a class="footer-link" href="#">Blog</a>
+            <a class="footer-link" href="#">Rooms</a>
+            <a class="footer-link" href="#">Gift Card</a>
+            <a class="footer-link" href="#">Testimonials</a>
+        </div>
+
+        <div class="footer-line">
+            <h3 class="footer-title">Privacy</h3>
+            <a class="footer-link"  href="#">Career</a>
+            <a class="footer-link" href="#">About Us</a>
+            <a class="footer-link" href="#">Contact Us</a>
+            <a class="footer-link" href="#">Services</a>
+        </div>
+
+        <div class="footer-line2">
+            <h3 class="footer-title">Contact Info</h3>
+            <a class="footer-link2" href="#"><img class="footer-icon" src="images/mail-blue.svg" alt="mail-icon"> example@yahoo.com</a>
+            <a class="footer-link2" href="#"><img class="footer-icon" src="images/phone-blue.svg" alt="phone-icon">+0 320 422 4254</a>
+            <a class="footer-link2" href="#"><img class="footer-icon" src="images/pin-blue.svg" alt="location-icon">Main Str Chicago Ilinois</a>
+        </div>
+    </div>
+
+
+        <div class="footer-end">
+            <p class="footer-paragraph">Copyright ©2020 All rights reserved | This template is made with love by <a class="footer-link" href="#">Marian</a></p>
+            <a class="footer-link" href="#">www.portfolioname.com</a>
+        </div>
     </footer>
 </head>
 <body>
