@@ -148,7 +148,7 @@
 .form-element {
     max-width: 720px;
     width: 100%;
-    height: 288px;
+    height: 295.2px;
 }
 .subjectfill {
     max-width: 352px;
@@ -159,6 +159,7 @@
     background-color: var(--backgroundColor);
     font-family: 'Rubik', sans-serif;
     font-size: 12px; 
+    margin-bottom: 16px;
 }
 .namefill {
     max-width: 352px;
@@ -169,6 +170,7 @@
     background-color: var(--backgroundColor);
     font-family: 'Rubik', sans-serif;
     font-size: 12px;
+    margin-bottom: 16px;
 
 }
 .emailfill {
@@ -180,6 +182,7 @@
     background-color: var(--backgroundColor);
     font-family: 'Rubik', sans-serif;
     font-size: 12px;
+    margin-bottom: 16px;
 }
 .div-wraper {
     max-width: 352px;
@@ -210,6 +213,14 @@
 .imgs {
     display: flex;
     justify-content: space-between;
+}
+.image-div {
+    max-width: 352px;
+    width: 100%;
+    height: 100%;
+}
+.section2-image {
+    width: 100%;
 }
 .contact-info {
     max-width: 1088px;
@@ -285,6 +296,13 @@ footer {
     display: flex;
     flex-direction: column;
     max-width: 260px;
+    width: 100%;
+}
+.midline-wraper {
+    display: flex;
+    flex-direction: row;
+    max-width: 290px;
+    justify-content: space-between;
     width: 100%;
 }
 .footer-line {
