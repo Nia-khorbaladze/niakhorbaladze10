@@ -79,6 +79,19 @@
         -ms-flex-wrap: wrap;
             flex-wrap: wrap;
     }
+    .footer-wraper {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .midline-wraper {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
 }
 @media (max-width:481px) {
     .contact-info {
