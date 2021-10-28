@@ -149,6 +149,8 @@
     background-color: var(--backgroundColor);
     font-family: 'Rubik', sans-serif;
     font-size: 12px; 
+    padding-left: 15px;
+    padding-top: 15px;
 
 }
 ::-webkit-input-placeholder {
@@ -181,6 +183,9 @@
     font-family: 'Rubik', sans-serif;
     font-size: 12px; 
     margin-bottom: 16px;
+    padding-left: 15px;
+    padding-top: 15px;
+
 }
 .namefill {
     max-width: 352px;
@@ -192,6 +197,8 @@
     font-family: 'Rubik', sans-serif;
     font-size: 12px;
     margin-bottom: 16px;
+    padding-left: 15px;
+    padding-top: 15px;
 
 }
 .emailfill {
@@ -204,6 +211,8 @@
     font-family: 'Rubik', sans-serif;
     font-size: 12px;
     margin-bottom: 16px;
+    padding-left: 15px;
+    padding-top: 15px;
 }
 .div-wraper {
     max-width: 352px;
